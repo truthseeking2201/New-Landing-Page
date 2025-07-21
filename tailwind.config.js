@@ -51,6 +51,11 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      spacing: {
+        glow: "67px",
+        "hero-sphere": "375.892px",
+        "fish-icon": "189.259px",
+      },
     },
   },
   plugins: [],

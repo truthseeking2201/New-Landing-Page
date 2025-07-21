@@ -295,12 +295,12 @@ export default function LandingPage() {
       {/* Hero Section - Exact Figma Design */}
       <div className="bg-black relative w-full">
         {/* Background glows - hidden on mobile for performance */}
-        <div className="hidden lg:block absolute left-[1018px] top-[210px] w-[67px] h-[67px]">
+        <div className="hidden lg:block absolute left-[1018px] top-[210px] w-glow h-glow">
           <div className="absolute inset-0 -scale-[4]">
             <img alt="Background glow" className="block max-w-none w-full h-full" src={imgEllipseGlow} />
           </div>
         </div>
-        <div className="hidden lg:block absolute left-[1018px] top-[210px] w-[67px] h-[67px]">
+        <div className="hidden lg:block absolute left-[1018px] top-[210px] w-glow h-glow">
           <div className="absolute inset-0 -scale-[4]">
             <img alt="Background glow" className="block max-w-none w-full h-full" src={imgEllipseGlow} />
           </div>
@@ -335,7 +335,7 @@ export default function LandingPage() {
 
           {/* Right Hero Image */}
           <div className="relative mt-8 lg:mt-0 mx-auto lg:mx-0">
-            <div className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-[375.892px] h-[250px] sm:h-[300px] md:h-[350px] lg:h-[375.892px] relative">
+            <div className="w-[250px] sm:w-[300px] md:w-[350px] lg:w-hero-sphere h-[250px] sm:h-[300px] md:h-[350px] lg:h-hero-sphere relative">
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
@@ -814,7 +814,7 @@ export default function LandingPage() {
                 <img 
                   src={imgFishIcon} 
                   alt="Fish" 
-                  className="absolute -left-[10.26px] -top-[36.977px] w-[189.259px] h-[189.259px] object-cover scale-50 sm:scale-75 md:scale-100"
+                  className="absolute -left-[10.26px] -top-[36.977px] w-fish-icon h-fish-icon object-cover scale-50 sm:scale-75 md:scale-100"
                 />
               </div>
               
