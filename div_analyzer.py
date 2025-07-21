@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import re
+import sys
 
 def analyze_div_structure(file_path):
     with open(file_path, 'r') as f:
@@ -40,4 +41,9 @@ def analyze_div_structure(file_path):
     return stack
 
 if __name__ == "__main__":
-    analyze_div_structure('/Users/macbook/Downloads/NODO/NODO NEW LANDING PAGE/src/components/LandingPage.tsx')
+    if len(sys.argv) != 2:
+        print("Usage: python div_analyzer.py <path_to_file>")
+        sys.exit(1)
+
+    target_file = sys.argv[1]
+    analyze_div_structure(target_file)
