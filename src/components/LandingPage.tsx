@@ -297,12 +297,12 @@ export default function LandingPage() {
         {/* Background glows - hidden on mobile for performance */}
         <div className="hidden lg:block absolute left-[1018px] top-[210px] w-[67px] h-[67px]">
           <div className="absolute inset-0 -scale-[4]">
-            <img alt="" className="block max-w-none w-full h-full" src={imgEllipseGlow} />
+            <img alt="Background glow" className="block max-w-none w-full h-full" src={imgEllipseGlow} />
           </div>
         </div>
         <div className="hidden lg:block absolute left-[1018px] top-[210px] w-[67px] h-[67px]">
           <div className="absolute inset-0 -scale-[4]">
-            <img alt="" className="block max-w-none w-full h-full" src={imgEllipseGlow} />
+            <img alt="Background glow" className="block max-w-none w-full h-full" src={imgEllipseGlow} />
           </div>
         </div>
 
@@ -403,28 +403,28 @@ export default function LandingPage() {
                     <div className="flex flex-row items-center justify-center w-full">
                       <div className="h-6 w-[107.48px] relative">
                         <div className="absolute bottom-0 left-0 right-[70.227%] top-0">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
                         </div>
                         <div className="absolute bottom-[15.552%] left-[90.194%] right-0 top-[32.22%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
                         </div>
                         <div className="absolute bottom-[15.572%] left-[85.861%] right-[11.756%] top-[14.067%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
                         </div>
                         <div className="absolute bottom-[15.558%] left-[77.604%] right-[15.12%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
                         </div>
                         <div className="absolute bottom-[14.419%] left-[65.873%] right-[23.056%] top-[32.22%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
                         </div>
                         <div className="absolute bottom-[14.433%] left-[54.591%] right-[35.602%] top-[33.34%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
                         </div>
                         <div className="absolute bottom-[15.558%] left-[50.5%] right-[47.117%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
                         </div>
                         <div className="absolute bottom-[14.425%] left-[37.211%] right-[50.98%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
                         </div>
                       </div>
                     </div>
@@ -468,28 +468,28 @@ export default function LandingPage() {
                     <div className="flex flex-row items-center justify-center w-full">
                       <div className="h-6 w-[107.48px] relative">
                         <div className="absolute bottom-0 left-0 right-[70.227%] top-0">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
                         </div>
                         <div className="absolute bottom-[15.552%] left-[90.194%] right-0 top-[32.22%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
                         </div>
                         <div className="absolute bottom-[15.572%] left-[85.861%] right-[11.756%] top-[14.067%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
                         </div>
                         <div className="absolute bottom-[15.558%] left-[77.604%] right-[15.12%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
                         </div>
                         <div className="absolute bottom-[14.419%] left-[65.873%] right-[23.056%] top-[32.22%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
                         </div>
                         <div className="absolute bottom-[14.433%] left-[54.591%] right-[35.602%] top-[33.34%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
                         </div>
                         <div className="absolute bottom-[15.558%] left-[50.5%] right-[47.117%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
                         </div>
                         <div className="absolute bottom-[14.425%] left-[37.211%] right-[50.98%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
                         </div>
                       </div>
                     </div>
@@ -513,7 +513,7 @@ export default function LandingPage() {
                         </div>
                       </div>
                       <div className="mr-[-6.667px] relative w-10 h-10">
-                        <img alt="" className="block max-w-none w-full h-full" src={imgUsdcIcon} />
+                        <img alt="USDC token icon" className="block max-w-none w-full h-full" src={imgUsdcIcon} />
                       </div>
                     </div>
 
@@ -535,28 +535,28 @@ export default function LandingPage() {
                     <div className="flex flex-row items-center justify-center w-full">
                       <div className="h-5 w-[89.567px] relative">
                         <div className="absolute bottom-0 left-0 right-[70.227%] top-0">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector9} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector9} />
                         </div>
                         <div className="absolute bottom-[15.552%] left-[90.194%] right-0 top-[32.22%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector10} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector10} />
                         </div>
                         <div className="absolute bottom-[15.572%] left-[85.861%] right-[11.756%] top-[14.067%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector11} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector11} />
                         </div>
                         <div className="absolute bottom-[15.558%] left-[77.604%] right-[15.12%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector12} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector12} />
                         </div>
                         <div className="absolute bottom-[14.419%] left-[65.873%] right-[23.056%] top-[32.22%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector13} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector13} />
                         </div>
                         <div className="absolute bottom-[14.433%] left-[54.591%] right-[35.602%] top-[33.34%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector14} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector14} />
                         </div>
                         <div className="absolute bottom-[15.558%] left-[50.5%] right-[47.117%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector15} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector15} />
                         </div>
                         <div className="absolute bottom-[14.425%] left-[37.211%] right-[50.98%] top-[12.948%]">
-                          <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector16} />
+                          <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector16} />
                         </div>
                       </div>
                     </div>
@@ -617,28 +617,28 @@ export default function LandingPage() {
                         <div className="flex flex-row items-center justify-center w-full">
                           <div className="h-6 w-[107.48px] relative">
                             <div className="absolute bottom-0 left-0 right-[70.227%] top-0">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
                             </div>
                             <div className="absolute bottom-[15.552%] left-[90.194%] right-0 top-[32.22%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
                             </div>
                             <div className="absolute bottom-[15.572%] left-[85.861%] right-[11.756%] top-[14.067%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
                             </div>
                             <div className="absolute bottom-[15.558%] left-[77.604%] right-[15.12%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
                             </div>
                             <div className="absolute bottom-[14.419%] left-[65.873%] right-[23.056%] top-[32.22%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
                             </div>
                             <div className="absolute bottom-[14.433%] left-[54.591%] right-[35.602%] top-[33.34%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
                             </div>
                             <div className="absolute bottom-[15.558%] left-[50.5%] right-[47.117%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
                             </div>
                             <div className="absolute bottom-[14.425%] left-[37.211%] right-[50.98%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
                             </div>
                           </div>
                         </div>
@@ -679,28 +679,28 @@ export default function LandingPage() {
                         <div className="flex flex-row items-center justify-center w-full">
                           <div className="h-6 w-[107.48px] relative">
                             <div className="absolute bottom-0 left-0 right-[70.227%] top-0">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector1} />
                             </div>
                             <div className="absolute bottom-[15.552%] left-[90.194%] right-0 top-[32.22%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector2} />
                             </div>
                             <div className="absolute bottom-[15.572%] left-[85.861%] right-[11.756%] top-[14.067%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector3} />
                             </div>
                             <div className="absolute bottom-[15.558%] left-[77.604%] right-[15.12%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector4} />
                             </div>
                             <div className="absolute bottom-[14.419%] left-[65.873%] right-[23.056%] top-[32.22%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector5} />
                             </div>
                             <div className="absolute bottom-[14.433%] left-[54.591%] right-[35.602%] top-[33.34%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector6} />
                             </div>
                             <div className="absolute bottom-[15.558%] left-[50.5%] right-[47.117%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector7} />
                             </div>
                             <div className="absolute bottom-[14.425%] left-[37.211%] right-[50.98%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector8} />
                             </div>
                           </div>
                         </div>
@@ -724,7 +724,7 @@ export default function LandingPage() {
                             </div>
                           </div>
                           <div className="mr-[-6.667px] relative w-10 h-10">
-                            <img alt="" className="block max-w-none w-full h-full" src={imgUsdcIcon} />
+                            <img alt="USDC token icon" className="block max-w-none w-full h-full" src={imgUsdcIcon} />
                           </div>
                         </div>
                         {/* Pair Name */}
@@ -743,28 +743,28 @@ export default function LandingPage() {
                         <div className="flex flex-row items-center justify-center w-full">
                           <div className="h-5 w-[89.567px] relative">
                             <div className="absolute bottom-0 left-0 right-[70.227%] top-0">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector9} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector9} />
                             </div>
                             <div className="absolute bottom-[15.552%] left-[90.194%] right-0 top-[32.22%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector10} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector10} />
                             </div>
                             <div className="absolute bottom-[15.572%] left-[85.861%] right-[11.756%] top-[14.067%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector11} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector11} />
                             </div>
                             <div className="absolute bottom-[15.558%] left-[77.604%] right-[15.12%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector12} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector12} />
                             </div>
                             <div className="absolute bottom-[14.419%] left-[65.873%] right-[23.056%] top-[32.22%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector13} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector13} />
                             </div>
                             <div className="absolute bottom-[14.433%] left-[54.591%] right-[35.602%] top-[33.34%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector14} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector14} />
                             </div>
                             <div className="absolute bottom-[15.558%] left-[50.5%] right-[47.117%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector15} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector15} />
                             </div>
                             <div className="absolute bottom-[14.425%] left-[37.211%] right-[50.98%] top-[12.948%]">
-                              <img alt="" className="block max-w-none w-full h-full" src={imgBluefinVector16} />
+                              <img alt="Bluefin logo decoration" className="block max-w-none w-full h-full" src={imgBluefinVector16} />
                             </div>
                           </div>
                         </div>
