@@ -1,8 +1,6 @@
 import { Button } from './ui/button'
 import { motion } from 'framer-motion'
-
-// NODO logo asset
-const imgNodoLogo = "data:image/svg+xml,%3Csvg width='43' height='14' viewBox='0 0 43 14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.5 0L17 7L8.5 14L0 7L8.5 0Z' fill='%23FF6B35'/%3E%3Cpath d='M25.5 0L34 7L25.5 14L17 7L25.5 0Z' fill='%23FF6B35'/%3E%3C/svg%3E"
+import { NODO_LOGO_DATA_URI } from '../config/assets'
 
 export default function Header() {
   return (
@@ -17,13 +15,13 @@ export default function Header() {
           {/* Logo and Navigation */}
           <div className="flex items-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-16">
             {/* NODO Logo */}
-            <div className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 relative">
-              <img
-                src={imgNodoLogo}
-                alt="NODO"
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
-              />
-            </div>
+              <div className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 h-8 sm:h-10 md:h-12 lg:h-14 xl:h-16 relative">
+                <img
+                  src={NODO_LOGO_DATA_URI}
+                  alt="NODO"
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full object-contain"
+                />
+              </div>
 
             {/* Navigation */}
             <div className="hidden md:flex items-center h-12 lg:h-14 xl:h-16 relative">
