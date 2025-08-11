@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
-
-// Hero assets
-const imgHeroSphere = "http://localhost:3845/assets/256c608c492172c86679879aeb543ec2e58eee83.png"
-const imgHeroSphereMask = "http://localhost:3845/assets/3d7097266995ad1044f383915d0035b49c212f55.svg"
-const imgEllipseGlow = "http://localhost:3845/assets/b45acdf9e2603fbcea02f24aa2350113bbb296de.svg"
+import {
+  HERO_SPHERE_IMAGE_URL,
+  HERO_SPHERE_MASK_URL,
+  HERO_ELLIPSE_GLOW_URL,
+} from '../config/assets'
 
 export default function HeroSection() {
   return (
@@ -11,7 +11,11 @@ export default function HeroSection() {
       {/* Background glow */}
       <div className="hidden lg:block absolute left-[1018px] top-[210px] w-glow h-glow">
         <div className="absolute inset-0 -scale-[4]">
-          <img alt="Background glow" className="block max-w-none w-full h-full" src={imgEllipseGlow} />
+          <img
+            alt="Background glow"
+            className="block max-w-none w-full h-full"
+            src={HERO_ELLIPSE_GLOW_URL}
+          />
         </div>
       </div>
 
@@ -72,15 +76,15 @@ export default function HeroSection() {
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
-                backgroundImage: `url('${imgHeroSphere}')`,
-                maskImage: `url('${imgHeroSphereMask}')`,
+                backgroundImage: `url('${HERO_SPHERE_IMAGE_URL}')`,
+                maskImage: `url('${HERO_SPHERE_MASK_URL}')`,
                 maskSize: 'contain'
               }}
             />
             <div
               className="absolute inset-0 bg-gradient-to-r from-[#FF00A6] via-[#FF00C8] via-[#FF00FF] via-[#C400FF] via-[#4A28FF] via-[#002FFF] via-[#0078FF] via-[#00C4FF] to-[#00FFFF] mix-blend-hue"
               style={{
-                maskImage: `url('${imgHeroSphereMask}')`,
+                maskImage: `url('${HERO_SPHERE_MASK_URL}')`,
                 maskSize: 'contain',
                 maskPosition: 'center'
               }}
